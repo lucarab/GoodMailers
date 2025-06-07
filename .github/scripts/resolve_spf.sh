@@ -5,10 +5,14 @@ DOMAINS=(
   "_spf.google.com"
   "_spf.mail.yahoo.com"
   "spf.protection.outlook.com"
-  "mx.spf.gmx.net"
-  "mx.spf.web.de"
-  "spf.protonmail.ch"
-  "icloud.com"
+  "outlook.com"
+  "_spf.gmx.net"
+  "_spf.web.de"
+  "_spf.protonmail.ch"
+  "_spf.icloud.com"
+  "amazonses.com"
+  "sendgrid.net"
+  "mailgun.org"
 )
 
 IPV4_FILE="ipv4.txt"

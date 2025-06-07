@@ -1,6 +1,6 @@
-# Good Mailers IP List Generator
+# GoodMailers IP List
 
-This repository provides a GitHub Actions workflow and a shell script to automatically resolve and update IP ranges (IPv4 & IPv6) for common, trusted mail providers ("good mailers"). The generated `ipv4.txt` and `ipv6.txt` files can be used to whitelist these providers in firewalls or other network appliances.
+This repository provides up-to-date IPv4 and IPv6 lists for common, trusted mail providers (“good mailers”). The generated `ipv4.txt` and `ipv6.txt` files can be used to whitelist these providers in firewalls or other network appliances.
 
 The lists are updated daily via a scheduled GitHub Action.
 

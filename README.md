@@ -2,7 +2,7 @@
 
 This repository provides up-to-date IPv4 and IPv6 lists for common, trusted mail providers (“good mailers”). The generated `ipv4.txt` and `ipv6.txt` files can be used to whitelist these providers in firewalls or other network appliances.
 
-The lists are updated daily via a scheduled GitHub Action.
+The lists are updated daily via a scheduled GitHub Action. If no changes are detected in the resolved IP ranges, the files remain unchanged and no update is committed.
 
 ## 🌐 Supported SPF Domains
 
